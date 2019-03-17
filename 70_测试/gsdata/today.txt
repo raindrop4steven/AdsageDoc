@@ -1,0 +1,480 @@
+{
+  "took": 1981,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 4,
+    "max_score": 10.78556,
+    "hits": [
+      {
+        "_index": "classified-201903",
+        "_type": "app",
+        "_id": "2713da95-c9e3-4a1d-8621-895865330997",
+        "_score": 10.660497,
+        "_source": {
+          "imgs": [],
+          "created": "2019/03/14 08:06:00 +08:00",
+          "channel": "同花顺财经",
+          "media": "今日头条",
+          "body": "同花顺（300033）数据显示，2019年3月13日，迈瑞医疗（300760）获外资买入84.05万股，占流通盘0.69%，上榜陆股通日增仓前十。截至目前，陆股通持有迈瑞医疗337.93万股，占流通股2.78%，平均买入成本116.24元，持股盈...",
+          "title": "迈瑞医疗3月13日获外资买入0.69%股份",
+          "uri": "http://toutiao.com/group/6668031150348304903",
+          "contentLength": 779
+        },
+        "sort": [
+          1552521960000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "7e031de2-7549-40b5-bea8-797a4442681e",
+        "_score": 10.78556,
+        "_source": {
+          "imgs": [],
+          "created": "2019/03/14 08:06:00 +08:00",
+          "channel": "同花顺财经",
+          "media": "今日头条",
+          "body": "同花顺（300033）数据显示，2019年3月13日，迈瑞医疗（300760）获外资买入84.05万股，占流通盘0.69%，上榜陆股通日增仓前十。截至目前，陆股通持有迈瑞医疗337.93万股，占流通股2.78%，平均买入成本116.24元，持股盈...",
+          "title": "迈瑞医疗3月13日获外资买入0.69%股份",
+          "uri": "https://www.toutiao.com/item/6668031150348304903/",
+          "contentLength": 779
+        },
+        "sort": [
+          1552521960000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "d7106a8d-7092-4e99-a7fa-6b6c286435b1",
+        "_score": 10.62495,
+        "_source": {
+          "created": "2019/03/14 08:02:00 +08:00",
+          "channel": "股票",
+          "media": "同花顺",
+          "title": "【外资买卖】迈瑞医疗3月13日获外资买入0.69%股份",
+          "body": "迈瑞医疗最近5个交易日下跌2.73%，陆股通累计净买入29.51万股，占流通盘0.24%，区间平均买入价127.95元；最近20个交易日上涨12.06%，陆股通累计净买入219.61万股，占流通盘1.81%，区间平均买入价122.03元；最近60个交...",
+          "uri": "http://yuanchuang.10jqka.com.cn/20190314/c610237665.shtml",
+          "contentLength": 652
+        },
+        "sort": [
+          1552521720000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "73b6fc04-de23-4457-8d08-46817cd4a3f3",
+        "_score": 9.082104,
+        "_source": {
+          "imgs": [
+            "http://www.rcj99.com/uploads/allimg/190311/1R11L3U-0.png"
+          ],
+          "created": "2019/03/14 06:31:40 +08:00",
+          "media": "锐财经",
+          "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民网·人民健康主办的2019年全国两会“健康中国人”系列活动在京举行。迈瑞医疗董事长李西廷做客人民网,接受了...",
+          "title": "迈瑞医疗李西廷：医械未来路该怎么走？紧抓核心技术占领高端市场",
+          "uri": "http://www.rcj99.com/wap/wap.php?action=article&id=23750",
+          "contentLength": 2202
+        },
+        "sort": [
+          1552516300000
+        ]
+      }
+    ]
+  },
+  "aggregations": {
+    "raw_title": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "7ae34705-6155-4a86-9566-14feee30feb5",
+          "doc_count": 3,
+          "hits": {
+            "hits": {
+              "total": 3,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "web",
+                  "_id": "d7106a8d-7092-4e99-a7fa-6b6c286435b1",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "外资买卖迈瑞医疗3月13日获外资买入069股份",
+                    "media_type": "web",
+                    "created": "2019/03/14 08:02:00 +08:00",
+                    "channel": "股票",
+                    "rel": "7ae34705-6155-4a86-9566-14feee30feb5",
+                    "rank": 250,
+                    "media": "同花顺",
+                    "title": "【外资买卖】迈瑞医疗3月13日获外资买入0.69%股份",
+                    "body": "迈瑞医疗最近5个交易日下跌2.73%，陆股通累计净买入29.51万股，占流通盘0.24%，区间平均买入价127.95元；最...",
+                    "uri": "http://yuanchuang.10jqka.com.cn/20190314/c610237665.shtml"
+                  },
+                  "sort": [
+                    1552521720000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 1000250
+          }
+        },
+        {
+          "key": "57eda6ca-0ad9-4d50-995a-6af2fe8e6bab",
+          "doc_count": 1,
+          "hits": {
+            "hits": {
+              "total": 1,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "web",
+                  "_id": "73b6fc04-de23-4457-8d08-46817cd4a3f3",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "迈瑞医疗李西廷医械未来路该怎么走紧抓核心技术占领高端市场",
+                    "imgs": [
+                      "http://www.rcj99.com/uploads/allimg/190311/1R11L3U-0.png"
+                    ],
+                    "media_type": "web",
+                    "created": "2019/03/14 06:31:40 +08:00",
+                    "rel": "57eda6ca-0ad9-4d50-995a-6af2fe8e6bab",
+                    "rank": 50,
+                    "media": "锐财经",
+                    "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民...",
+                    "title": "迈瑞医疗李西廷：医械未来路该怎么走？紧抓核心技术占领高端市场",
+                    "uri": "http://www.rcj99.com/wap/wap.php?action=article&id=23750"
+                  },
+                  "sort": [
+                    1552516300000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 50
+          }
+        }
+      ]
+    },
+    "media_ted": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "今日头条",
+          "doc_count": 2,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 2
+              }
+            ]
+          }
+        },
+        {
+          "key": "同花顺",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "锐财经",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "related_topic": {
+      "doc_count": 4,
+      "buckets": [
+        {
+          "key": "外资",
+          "doc_count": 3,
+          "score": 13.875,
+          "bg_count": 0
+        },
+        {
+          "key": "13日",
+          "doc_count": 3,
+          "score": 13.875,
+          "bg_count": 0
+        },
+        {
+          "key": "股份",
+          "doc_count": 3,
+          "score": 13.875,
+          "bg_count": 0
+        },
+        {
+          "key": "3月",
+          "doc_count": 3,
+          "score": 13.875,
+          "bg_count": 0
+        },
+        {
+          "key": "0.69",
+          "doc_count": 3,
+          "score": 13.875,
+          "bg_count": 0
+        },
+        {
+          "key": "获",
+          "doc_count": 3,
+          "score": 13.875,
+          "bg_count": 0
+        },
+        {
+          "key": "买入",
+          "doc_count": 3,
+          "score": 13.875,
+          "bg_count": 0
+        },
+        {
+          "key": "迈瑞医疗",
+          "doc_count": 4,
+          "score": 0.4444444444444445,
+          "bg_count": 18
+        }
+      ]
+    },
+    "mt_ted": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "web",
+          "doc_count": 3,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 2
+              },
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "app",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "channel": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "同花顺财经",
+          "doc_count": 2
+        },
+        {
+          "key": "股票",
+          "doc_count": 1
+        }
+      ]
+    },
+    "ted_timeline": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "中性",
+          "doc_count": 3,
+          "time_line": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/14 00:00:00 +0800",
+                "key": 1552492800000,
+                "doc_count": 3
+              }
+            ]
+          }
+        },
+        {
+          "key": "正面",
+          "doc_count": 1,
+          "time_line": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/14 00:00:00 +0800",
+                "key": 1552492800000,
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "hot_topics": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "迈瑞医疗",
+          "doc_count": 4
+        },
+        {
+          "key": "买入",
+          "doc_count": 3
+        },
+        {
+          "key": "外资",
+          "doc_count": 3
+        },
+        {
+          "key": "股份",
+          "doc_count": 3
+        },
+        {
+          "key": "买卖",
+          "doc_count": 1
+        },
+        {
+          "key": "占领",
+          "doc_count": 1
+        },
+        {
+          "key": "市场",
+          "doc_count": 1
+        },
+        {
+          "key": "怎么走",
+          "doc_count": 1
+        },
+        {
+          "key": "来路",
+          "doc_count": 1
+        },
+        {
+          "key": "核心技术",
+          "doc_count": 1
+        },
+        {
+          "key": "紧抓",
+          "doc_count": 1
+        },
+        {
+          "key": "高端",
+          "doc_count": 1
+        }
+      ]
+    },
+    "hot_media": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "今日头条",
+          "doc_count": 2
+        },
+        {
+          "key": "同花顺",
+          "doc_count": 1
+        },
+        {
+          "key": "锐财经",
+          "doc_count": 1
+        }
+      ]
+    },
+    "mt_timeline": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "web",
+          "doc_count": 3,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/14 00:00:00 +0800",
+                "key": 1552492800000,
+                "doc_count": 3
+              }
+            ]
+          }
+        },
+        {
+          "key": "app",
+          "doc_count": 1,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/14 00:00:00 +0800",
+                "key": 1552492800000,
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "emtl_tendency": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "中性",
+          "doc_count": 3
+        },
+        {
+          "key": "正面",
+          "doc_count": 1
+        }
+      ]
+    }
+  },
+  "range": {
+    "from": "2019/03/14 00:00:00 +08:00",
+    "to": "2019/03/14 09:17:09 +08:00"
+  }
+}

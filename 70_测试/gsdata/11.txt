@@ -1,0 +1,1375 @@
+{
+  "took": 1991,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 16,
+    "max_score": 12.318554,
+    "hits": [
+      {
+        "_index": "classified-201903",
+        "_type": "bbs",
+        "_id": "3b296d5b-4eb5-491f-b9a9-7b57a2e8ca34",
+        "_score": 12.187491,
+        "_source": {
+          "created": "2019/03/11 20:30:36 +08:00",
+          "channel": "华西股份吧",
+          "media": "东方财富网论坛",
+          "body": "迈瑞医疗 浏览次数：78发布日期：2015-09-25 公司介绍： 迈瑞医疗1991年成立，总部位于深圳。在中国设有32个分公司，近11万家医疗机构，95%以上三甲医院在使用迈瑞产品。产品远销190个国家及地区，海外32个国家设立4...",
+          "title": "华西股份已投企业：迈瑞医疗",
+          "uri": "http://guba.eastmoney.com/news,000936,808434146.html",
+          "contentLength": 223
+        },
+        "sort": [
+          1552307436000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "bbs",
+        "_id": "1a60ecf9-1424-4300-ab40-f3f64f686b2b",
+        "_score": 9.2567215,
+        "_source": {
+          "created": "2019/03/11 19:28:00 +08:00",
+          "channel": "个股研究报告",
+          "media": "海风股票论坛",
+          "body": "招商证券-迈瑞医疗(300760)器械华为，中国GE-190310.pdf",
+          "title": "招商证券-迈瑞医疗(300760)器械华为，中国GE-190310",
+          "uri": "http://www.96bbs.com/thread-3593712-1-1.html",
+          "contentLength": 37
+        },
+        "sort": [
+          1552303680000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "1809ce17-f2e3-428c-bcbd-e2dd992799ab",
+        "_score": 9.249956,
+        "_source": {
+          "imgs": [
+            "http://www.rcj99.com/uploads/allimg/190311/1R11L3U-0.png",
+            "http://www.rcj99.com/mianzhe.jpg"
+          ],
+          "created": "2019/03/11 18:19:00 +08:00",
+          "channel": "新闻",
+          "media": "锐财经",
+          "title": "迈瑞医疗李西廷：医械未来路该怎么走？紧抓核心技术占领高端市场",
+          "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民网·人民健康主办的2019年全国两会“健康中国人”系列活动在京举行。迈瑞医疗董事长李西廷做客人民网,接受了...",
+          "uri": "http://www.rcj99.com/a/view/media/2019/0311/23750.html",
+          "contentLength": 2202
+        },
+        "sort": [
+          1552299540000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "d5781634-a4ea-4018-b437-d1c32fc86fcd",
+        "_score": 9.249956,
+        "_source": {
+          "imgs": [
+            "http://www.rcj99.com/uploads/allimg/190311/1QT02607-0.png",
+            "http://www.rcj99.com/mianzhe.jpg"
+          ],
+          "created": "2019/03/11 18:17:00 +08:00",
+          "channel": "新闻",
+          "media": "锐财经",
+          "title": "国产医疗器械产业的机遇与挑战 听听迈瑞医疗李西廷怎么说",
+          "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民网·人民健康主办的2019年全国两会“健康中国人”系列活动在京举行。迈瑞医疗董事长李西廷做客人民网,接受了...",
+          "uri": "http://www.rcj99.com/a/view/media/2019/0311/23749.html",
+          "contentLength": 2202
+        },
+        "sort": [
+          1552299420000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "app",
+        "_id": "a128f1b8-fce6-4997-b3eb-0a060489298c",
+        "_score": 9.179418,
+        "_source": {
+          "imgs": [
+            "http://img.danews.cc/upload/doc/20190311/5c860ef82debc.png"
+          ],
+          "created": "2019/03/11 17:03:00 +08:00",
+          "media": "海峡都市报",
+          "title": "国产医疗器械产业的机遇与挑战 听听迈瑞医疗李西廷怎么说",
+          "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民网·人民健康主办的2019年全国两会“健康中国人”系列活动在京举行。迈瑞医疗董事长李西廷做客人民网,接受了...",
+          "uri": "http://epaper.nhaidu.com/xinwen/caijing/2019/0311/106820.html",
+          "contentLength": 2148
+        },
+        "sort": [
+          1552294980000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "5d829699-401c-48d6-98fc-37734a28b3ce",
+        "_score": 12.09847,
+        "_source": {
+          "created": "2019/03/11 16:56:43 +08:00",
+          "channel": "股票资讯",
+          "media": "中国银河证券",
+          "title": "迈瑞医疗(300760)器械华为 中国GE",
+          "body": "迈瑞医疗是我国医疗器械行业龙头企业，产品布局全面，规模化优势显着，研发和销售实力均处于业内领先地位，并且拥有业内首屈一指的并购整合能力。随着我国医疗器械市场的不断扩大，以及分级诊疗、进口替代等政策的加...",
+          "uri": "http://www.chinastock.com.cn/yhwz_about.do?methodCall=getDetailInfo&docId=6657592",
+          "contentLength": 1019
+        },
+        "sort": [
+          1552294603000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "app",
+        "_id": "39438d59-e1a3-4d31-98fa-ac620436731a",
+        "_score": 9.118214,
+        "_source": {
+          "created": "2019/03/11 16:26:00 +08:00",
+          "media": "中国交通在线",
+          "title": "迈瑞医疗李西廷:医械未来路该怎么走?紧抓核心技术占领高端市场!",
+          "body": "无",
+          "uri": "http://www.jiaotongwang.cn/plus/view-195868-1.html",
+          "contentLength": 1
+        },
+        "sort": [
+          1552292760000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "b02fc414-5696-4df8-8fb3-d2e4b37c4977",
+        "_score": 9.224989,
+        "_source": {
+          "created": "2019/03/11 16:12:00 +08:00",
+          "channel": "股票",
+          "media": "同花顺",
+          "title": "招商医药·吴斌/漆经纬：迈瑞医疗—器械华为 中国GE",
+          "body": "公司是国产高端医疗器械的代表者，生命信息与支持、IVD、医学影像三驾马车共铸行业龙头地位。公司自成立以来始终聚焦医疗器械行业，长期坚持从单一产品到多元产品、从国内市场到全球市场、从低端产品到高端产品的产业...",
+          "uri": "http://stock.10jqka.com.cn/20190311/c610173916.shtml",
+          "contentLength": 1253
+        },
+        "sort": [
+          1552291920000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "wechat",
+        "_id": "wechat_e3f808d3-c1ba-4c21-8142-986b54f4a3d8",
+        "_score": 9.112696,
+        "_source": {
+          "imgs": [],
+          "created": "2019/03/11 16:03:00 +08:00",
+          "channel": "招商研究",
+          "media": "招商研究",
+          "title": "招商医药·吴斌/漆经纬:迈瑞医疗(300760)—器械华为,中国GE",
+          "body": "公司是国产高端医疗器械的代表者，生命信息与支持、IVD、医学影像三驾马车共铸行业龙头地位。公司自成立以来始终聚焦医疗器械行业，长期坚持从单一产品到多元产品、从国内市场到全球市场、从低端产品到高端产品的产业...",
+          "uri": "http://mp.weixin.qq.com/s?__biz=MzA4ODM5MDMxMA==&mid=2651080714&idx=4&sn=f41c0483546313502ff1d99e14c8b646&scene=0",
+          "contentLength": 1226
+        },
+        "sort": [
+          1552291380000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "d2c9522b-fde4-4cdd-a38f-a961aa042394",
+        "_score": 9.112178,
+        "_source": {
+          "imgs": [
+            "http://www.jiulongw.cn/d/file/news/shangye/2019-03-11/16031eaa2399631397ba1738c63b6c73.png"
+          ],
+          "created": "2019/03/11 15:56:12 +08:00",
+          "media": "九龙网",
+          "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民网·人民健康主办的2019年全国两会“健康中国人”系列活动在京举行。迈瑞医疗董事长李西廷做客人民网,接受了...",
+          "title": "​迈瑞医疗李西廷：转型升级发展正当时 医械产业迎发展好时机",
+          "uri": "http://news.jiulongw.cn/shangye/2019-03-11/97161.html",
+          "contentLength": 2174
+        },
+        "sort": [
+          1552290972000
+        ]
+      }
+    ]
+  },
+  "aggregations": {
+    "raw_title": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 1,
+      "buckets": [
+        {
+          "key": "57eda6ca-0ad9-4d50-995a-6af2fe8e6bab",
+          "doc_count": 3,
+          "hits": {
+            "hits": {
+              "total": 3,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "web",
+                  "_id": "531fd0a0-b0d3-4547-b088-caa32a2139ae",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "迈瑞医疗李西廷医械未来路该怎么走紧抓核心技术占领高端市场",
+                    "imgs": [
+                      "http://img.danews.cc/upload/doc/20190311/5c860ef82debc.png"
+                    ],
+                    "media_type": "web",
+                    "created": "2019/03/11 15:54:43 +08:00",
+                    "rel": "57eda6ca-0ad9-4d50-995a-6af2fe8e6bab",
+                    "rank": 50,
+                    "media": "sq1996.com",
+                    "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民...",
+                    "title": "迈瑞医疗李西廷：医械未来路该怎么走？紧抓核心技术占领高端市场！",
+                    "uri": "http://news.sq1996.com/sqyw/sqwl/51408.html"
+                  },
+                  "sort": [
+                    1552290883000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 2600
+          }
+        },
+        {
+          "key": "d9222e18-0950-40ae-bf3f-c28d497d3856",
+          "doc_count": 2,
+          "hits": {
+            "hits": {
+              "total": 2,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "app",
+                  "_id": "a128f1b8-fce6-4997-b3eb-0a060489298c",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "国产医疗器械产业的机遇与挑战听听迈瑞医疗李西廷怎么说",
+                    "imgs": [
+                      "http://img.danews.cc/upload/doc/20190311/5c860ef82debc.png"
+                    ],
+                    "media_type": "app",
+                    "created": "2019/03/11 17:03:00 +08:00",
+                    "rel": "d9222e18-0950-40ae-bf3f-c28d497d3856",
+                    "rank": 250,
+                    "media": "海峡都市报",
+                    "title": "国产医疗器械产业的机遇与挑战 听听迈瑞医疗李西廷怎么说",
+                    "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民...",
+                    "uri": "http://epaper.nhaidu.com/xinwen/caijing/2019/0311/106820.html"
+                  },
+                  "sort": [
+                    1552294980000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 300
+          }
+        },
+        {
+          "key": "d9da4567-799c-4b7b-928b-eb4d0c334e7e",
+          "doc_count": 2,
+          "hits": {
+            "hits": {
+              "total": 2,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "web",
+                  "_id": "5d829699-401c-48d6-98fc-37734a28b3ce",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "迈瑞医疗300760器械华为中国GE",
+                    "media_type": "web",
+                    "created": "2019/03/11 16:56:43 +08:00",
+                    "channel": "股票资讯",
+                    "rel": "d9da4567-799c-4b7b-928b-eb4d0c334e7e",
+                    "rank": 7500,
+                    "media": "中国银河证券",
+                    "title": "迈瑞医疗(300760)器械华为 中国GE",
+                    "body": "迈瑞医疗是我国医疗器械行业龙头企业，产品布局全面，规模化优势显着，研发和销售实力均处于业内领先地位，...",
+                    "uri": "http://www.chinastock.com.cn/yhwz_about.do?methodCall=getDetailInfo&docId=6657592"
+                  },
+                  "sort": [
+                    1552294603000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 8250
+          }
+        },
+        {
+          "key": "f451db81-0b53-4471-b47d-428ec6c178cb",
+          "doc_count": 2,
+          "hits": {
+            "hits": {
+              "total": 2,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "wechat",
+                  "_id": "wechat_e3f808d3-c1ba-4c21-8142-986b54f4a3d8",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "招商医药·吴斌漆经纬迈瑞医疗300760—器械华为中国GE",
+                    "imgs": [],
+                    "media_type": "wechat",
+                    "created": "2019/03/11 16:03:00 +08:00",
+                    "channel": "招商研究",
+                    "rel": "f451db81-0b53-4471-b47d-428ec6c178cb",
+                    "rank": 75000,
+                    "media": "招商研究",
+                    "title": "招商医药·吴斌/漆经纬:迈瑞医疗(300760)—器械华为,中国GE",
+                    "body": "公司是国产高端医疗器械的代表者，生命信息与支持、IVD、医学影像三驾马车共铸行业龙头地位。公司自成立以来...",
+                    "uri": "http://mp.weixin.qq.com/s?__biz=MzA4ODM5MDMxMA==&mid=2651080714&idx=4&sn=f41c0483546313502ff1d99e14c8b646&scene=0"
+                  },
+                  "sort": [
+                    1552291380000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 575000
+          }
+        },
+        {
+          "key": "60b5ddc0-256c-4b10-a473-9bd107130155",
+          "doc_count": 1,
+          "hits": {
+            "hits": {
+              "total": 1,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "wechat",
+                  "_id": "wechat_78dde9a5-7549-4756-8fcb-20e4644b66d0",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "医药板块迎利好恒瑞医药迈瑞医疗药明康德有望启动主升浪",
+                    "imgs": [
+                      "https://mmbiz.qpic.cn/mmbiz_png/4icyEKNLgJofYjNcAq3zPrjvibyzc2Km0icibrsHiaZQr5uBNm3jiclhCeFMR4Oic1ra4dLxHGDth3xibYJXwfpl6fVzxQ/640?wx_fmt=png",
+                      "https://mmbiz.qpic.cn/mmbiz_jpg/4icyEKNLgJofYjNcAq3zPrjvibyzc2Km0icjFuSkBjMEqQlfId6QeR54ggKPiaPNZH8gaic6ETB5VIWLbPSTbW9oHJQ/640?wx_fmt=jpeg",
+                      "https://mmbiz.qpic.cn/mmbiz_jpg/4icyEKNLgJofYjNcAq3zPrjvibyzc2Km0iceAlRRvgZ64OFLEIYspSI4qrjEOcsCpQnLIvV7sDT1TpX5OFhadASWA/640?wx_fmt=jpeg"
+                    ],
+                    "media_type": "wechat",
+                    "created": "2019/03/11 15:25:06 +08:00",
+                    "channel": "张锐城解股",
+                    "rel": "60b5ddc0-256c-4b10-a473-9bd107130155",
+                    "rank": 75000,
+                    "media": "张锐城解股",
+                    "title": "医药板块迎利好: 恒瑞医药 迈瑞医疗 药明康德有望启动主升浪!",
+                    "body": "受益创新药研发浪潮的CRO行业\nCRO简单来说是药物研发外包，药物研发出来之后，还需要进行药理毒理测试，经过...",
+                    "uri": "http://mp.weixin.qq.com/s?__biz=MzI4MzgwNzkzNw==&mid=2247484206&idx=2&sn=9a157e09b18d59d6560ad66abd97a81e&scene=0"
+                  },
+                  "sort": [
+                    1552289106000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 75000
+          }
+        },
+        {
+          "key": "67f56a04-54b6-49c5-a094-c84fe7df5a7b",
+          "doc_count": 1,
+          "hits": {
+            "hits": {
+              "total": 1,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "web",
+                  "_id": "d2c9522b-fde4-4cdd-a38f-a961aa042394",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "​迈瑞医疗李西廷转型升级发展正当时医械产业迎发展好时机",
+                    "imgs": [
+                      "http://www.jiulongw.cn/d/file/news/shangye/2019-03-11/16031eaa2399631397ba1738c63b6c73.png"
+                    ],
+                    "media_type": "web",
+                    "created": "2019/03/11 15:56:12 +08:00",
+                    "rel": "67f56a04-54b6-49c5-a094-c84fe7df5a7b",
+                    "rank": 50,
+                    "media": "九龙网",
+                    "body": "李西廷:实体经济迎来发展机遇 医疗器械产业面临升级挑战\n人民网北京3月8日电(记者孙博洋)3月7日上午,由人民...",
+                    "title": "​迈瑞医疗李西廷：转型升级发展正当时 医械产业迎发展好时机",
+                    "uri": "http://news.jiulongw.cn/shangye/2019-03-11/97161.html"
+                  },
+                  "sort": [
+                    1552290972000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 50
+          }
+        },
+        {
+          "key": "709a1318-aa64-4a84-9fa7-f7638fc7c757",
+          "doc_count": 1,
+          "hits": {
+            "hits": {
+              "total": 1,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "wechat",
+                  "_id": "wechat_79d29005-d5fe-457a-a897-243907817175",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "特大消息迈瑞医疗公司底薪上涨到2500转正后底薪28003月12号周二上午1000点准时赶到报名地点长白班包吃住",
+                    "imgs": [],
+                    "media_type": "wechat",
+                    "created": "2019/03/11 13:59:15 +08:00",
+                    "channel": "深圳东盈人力",
+                    "rel": "709a1318-aa64-4a84-9fa7-f7638fc7c757",
+                    "rank": 75000,
+                    "media": "深圳东盈人力",
+                    "title": "特大消息!迈瑞医疗公司底薪上涨到2500,转正后底薪2800,3月12号(周二)上午10:00点准时赶到报名地点,长白班包吃住",
+                    "body": "1、特注：迈瑞公司底薪上涨到2500（加班费按底薪2500算）月工资突破7000！公司订单增多，降低招聘要求，多个...",
+                    "uri": "http://mp.weixin.qq.com/s?__biz=MzI5NzE2NzUxNQ==&mid=2653267134&idx=1&sn=99d3e4164dce65ebf82cb894d10b8099&scene=0"
+                  },
+                  "sort": [
+                    1552283955000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 75000
+          }
+        },
+        {
+          "key": "af7cc65d-2827-473b-be4c-09e3c40f98a6",
+          "doc_count": 1,
+          "hits": {
+            "hits": {
+              "total": 1,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "bbs",
+                  "_id": "3b296d5b-4eb5-491f-b9a9-7b57a2e8ca34",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "华西股份已投企业迈瑞医疗",
+                    "media_type": "bbs",
+                    "created": "2019/03/11 20:30:36 +08:00",
+                    "channel": "华西股份吧",
+                    "rel": "af7cc65d-2827-473b-be4c-09e3c40f98a6",
+                    "rank": 500000,
+                    "media": "东方财富网论坛",
+                    "body": "迈瑞医疗 浏览次数：78发布日期：2015-09-25 公司介绍： 迈瑞医疗1991年成立，总部位于深圳。在中国设有32个...",
+                    "title": "华西股份已投企业：迈瑞医疗",
+                    "uri": "http://guba.eastmoney.com/news,000936,808434146.html"
+                  },
+                  "sort": [
+                    1552307436000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 500000
+          }
+        },
+        {
+          "key": "c55f825a-a455-45d9-a62c-9415fc5ccdea",
+          "doc_count": 1,
+          "hits": {
+            "hits": {
+              "total": 1,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "wechat",
+                  "_id": "wechat_1af01328-7039-4078-af3a-376fb582542a",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "A股预言帝下一只龙头300760迈瑞医疗有望爆发",
+                    "imgs": [
+                      "https://mmbiz.qpic.cn/mmbiz_png/fdeSQKOFJfUAgS7zpFBDs2QVOZFdbDwmtI7ypib4uZU02Gztkv6Qtt3CvoKCxfyRXe6yE1UDIVUKzcflOdx6icFQ/640?wx_fmt=png",
+                      "https://mmbiz.qpic.cn/mmbiz_png/fdeSQKOFJfUAgS7zpFBDs2QVOZFdbDwmm4K4k69IK4XS7oAia8ibUP8CVKeYCmP5GT16OmoibpSq4PSUicFhQBWAIA/640?wx_fmt=png"
+                    ],
+                    "media_type": "wechat",
+                    "created": "2019/03/11 13:36:59 +08:00",
+                    "channel": "璐璐财经",
+                    "rel": "c55f825a-a455-45d9-a62c-9415fc5ccdea",
+                    "rank": 75000,
+                    "media": "璐璐财经",
+                    "title": "A股预言帝:下一只龙头300760迈瑞医疗,有望爆发",
+                    "body": "强趋势行情中，如果出现大阴线，经常是一日游。如果处于量价齐升段，巨阴为一日游的概率更大。今日沪指经过...",
+                    "uri": "http://mp.weixin.qq.com/s?__biz=MzI5NDk0OTQzMw==&mid=2247483887&idx=8&sn=eb7614558969e0f328bdef8ab69f7335&scene=0"
+                  },
+                  "sort": [
+                    1552282619000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 75000
+          }
+        },
+        {
+          "key": "c930bead-7b00-44e3-a641-404a63a25cde",
+          "doc_count": 1,
+          "hits": {
+            "hits": {
+              "total": 1,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "bbs",
+                  "_id": "ec2c8c65-8ca3-4f87-8afa-5b647b11b1de",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "好垃圾应该选迈瑞医疗",
+                    "media_type": "bbs",
+                    "created": "2019/03/11 13:28:46 +08:00",
+                    "channel": "恒瑞医药吧",
+                    "rel": "c930bead-7b00-44e3-a641-404a63a25cde",
+                    "rank": 500000,
+                    "media": "东方财富网论坛",
+                    "body": "好垃圾，应该选迈瑞医疗",
+                    "title": "好垃圾，应该选迈瑞医疗",
+                    "uri": "http://guba.eastmoney.com/news,600276,808330742.html"
+                  },
+                  "sort": [
+                    1552282126000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 500000
+          }
+        }
+      ]
+    },
+    "media_ted": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 4,
+      "buckets": [
+        {
+          "key": "东方财富网论坛",
+          "doc_count": 2,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 2
+              }
+            ]
+          }
+        },
+        {
+          "key": "锐财经",
+          "doc_count": 2,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 2
+              }
+            ]
+          }
+        },
+        {
+          "key": "Horizonhit",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "sq1996.com",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "中国交通在线",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "中国银河证券",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "九龙网",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "同花顺",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "张锐城解股",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "招商研究",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "related_topic": {
+      "doc_count": 16,
+      "buckets": [
+        {
+          "key": "廷",
+          "doc_count": 6,
+          "score": 6.234375,
+          "bg_count": 1
+        },
+        {
+          "key": "李",
+          "doc_count": 6,
+          "score": 6.234375,
+          "bg_count": 1
+        },
+        {
+          "key": "西",
+          "doc_count": 6,
+          "score": 6.234375,
+          "bg_count": 1
+        },
+        {
+          "key": "华为",
+          "doc_count": 5,
+          "score": 4.27734375,
+          "bg_count": 0
+        },
+        {
+          "key": "器械",
+          "doc_count": 4,
+          "score": 2.6875,
+          "bg_count": 0
+        },
+        {
+          "key": "医",
+          "doc_count": 4,
+          "score": 2.6875,
+          "bg_count": 0
+        },
+        {
+          "key": "械",
+          "doc_count": 4,
+          "score": 2.6875,
+          "bg_count": 0
+        },
+        {
+          "key": "300760",
+          "doc_count": 4,
+          "score": 2.6875,
+          "bg_count": 0
+        },
+        {
+          "key": "中国",
+          "doc_count": 4,
+          "score": 2.6875,
+          "bg_count": 0
+        },
+        {
+          "key": "核心技术",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "紧抓",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "来路",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "怎么走",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "医疗器械",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "该",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "占领",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "ge",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "市场",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 1
+        },
+        {
+          "key": "产业",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 1
+        },
+        {
+          "key": "未",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "医药",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        },
+        {
+          "key": "高端",
+          "doc_count": 3,
+          "score": 1.46484375,
+          "bg_count": 0
+        }
+      ]
+    },
+    "mt_ted": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "web",
+          "doc_count": 6,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 6
+              }
+            ]
+          }
+        },
+        {
+          "key": "wechat",
+          "doc_count": 5,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 3
+              },
+              {
+                "key": "正面",
+                "doc_count": 2
+              }
+            ]
+          }
+        },
+        {
+          "key": "bbs",
+          "doc_count": 3,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 3
+              }
+            ]
+          }
+        },
+        {
+          "key": "app",
+          "doc_count": 2,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              },
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "channel": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 1,
+      "buckets": [
+        {
+          "key": "新闻",
+          "doc_count": 2
+        },
+        {
+          "key": "Horizonhit",
+          "doc_count": 1
+        },
+        {
+          "key": "个股研究报告",
+          "doc_count": 1
+        },
+        {
+          "key": "华西股份吧",
+          "doc_count": 1
+        },
+        {
+          "key": "张锐城解股",
+          "doc_count": 1
+        },
+        {
+          "key": "恒瑞医药吧",
+          "doc_count": 1
+        },
+        {
+          "key": "招商研究",
+          "doc_count": 1
+        },
+        {
+          "key": "深圳东盈人力",
+          "doc_count": 1
+        },
+        {
+          "key": "璐璐财经",
+          "doc_count": 1
+        },
+        {
+          "key": "股票",
+          "doc_count": 1
+        }
+      ]
+    },
+    "ted_timeline": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "正面",
+          "doc_count": 9,
+          "time_line": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/11 00:00:00 +0800",
+                "key": 1552233600000,
+                "doc_count": 9
+              }
+            ]
+          }
+        },
+        {
+          "key": "中性",
+          "doc_count": 7,
+          "time_line": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/11 00:00:00 +0800",
+                "key": 1552233600000,
+                "doc_count": 7
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "hot_topics": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "迈瑞医疗",
+          "doc_count": 16
+        },
+        {
+          "key": "华为",
+          "doc_count": 5
+        },
+        {
+          "key": "中国",
+          "doc_count": 4
+        },
+        {
+          "key": "器械",
+          "doc_count": 4
+        },
+        {
+          "key": "产业",
+          "doc_count": 3
+        },
+        {
+          "key": "医疗器械",
+          "doc_count": 3
+        },
+        {
+          "key": "医药",
+          "doc_count": 3
+        },
+        {
+          "key": "占领",
+          "doc_count": 3
+        },
+        {
+          "key": "市场",
+          "doc_count": 3
+        },
+        {
+          "key": "怎么走",
+          "doc_count": 3
+        },
+        {
+          "key": "来路",
+          "doc_count": 3
+        },
+        {
+          "key": "核心技术",
+          "doc_count": 3
+        },
+        {
+          "key": "紧抓",
+          "doc_count": 3
+        },
+        {
+          "key": "高端",
+          "doc_count": 3
+        },
+        {
+          "key": "听听",
+          "doc_count": 2
+        },
+        {
+          "key": "国产",
+          "doc_count": 2
+        },
+        {
+          "key": "怎么说",
+          "doc_count": 2
+        },
+        {
+          "key": "招商",
+          "doc_count": 2
+        },
+        {
+          "key": "挑战",
+          "doc_count": 2
+        },
+        {
+          "key": "有望",
+          "doc_count": 2
+        },
+        {
+          "key": "机遇",
+          "doc_count": 2
+        },
+        {
+          "key": "经纬",
+          "doc_count": 2
+        },
+        {
+          "key": "上午",
+          "doc_count": 1
+        },
+        {
+          "key": "下一",
+          "doc_count": 1
+        },
+        {
+          "key": "企业",
+          "doc_count": 1
+        },
+        {
+          "key": "公司",
+          "doc_count": 1
+        },
+        {
+          "key": "准时",
+          "doc_count": 1
+        },
+        {
+          "key": "利好",
+          "doc_count": 1
+        },
+        {
+          "key": "升级",
+          "doc_count": 1
+        },
+        {
+          "key": "华西股份",
+          "doc_count": 1
+        },
+        {
+          "key": "发展",
+          "doc_count": 1
+        },
+        {
+          "key": "吃住",
+          "doc_count": 1
+        },
+        {
+          "key": "启动",
+          "doc_count": 1
+        },
+        {
+          "key": "周二",
+          "doc_count": 1
+        },
+        {
+          "key": "地点",
+          "doc_count": 1
+        },
+        {
+          "key": "垃圾",
+          "doc_count": 1
+        },
+        {
+          "key": "好时机",
+          "doc_count": 1
+        },
+        {
+          "key": "应该",
+          "doc_count": 1
+        },
+        {
+          "key": "底薪",
+          "doc_count": 1
+        },
+        {
+          "key": "恒瑞医药",
+          "doc_count": 1
+        },
+        {
+          "key": "报名",
+          "doc_count": 1
+        },
+        {
+          "key": "招商证券",
+          "doc_count": 1
+        },
+        {
+          "key": "板块",
+          "doc_count": 1
+        },
+        {
+          "key": "正当时",
+          "doc_count": 1
+        },
+        {
+          "key": "消息",
+          "doc_count": 1
+        },
+        {
+          "key": "涨到",
+          "doc_count": 1
+        },
+        {
+          "key": "爆发",
+          "doc_count": 1
+        },
+        {
+          "key": "特大",
+          "doc_count": 1
+        },
+        {
+          "key": "白班",
+          "doc_count": 1
+        },
+        {
+          "key": "药明康德",
+          "doc_count": 1
+        },
+        {
+          "key": "解析",
+          "doc_count": 1
+        },
+        {
+          "key": "赶到",
+          "doc_count": 1
+        },
+        {
+          "key": "转型",
+          "doc_count": 1
+        },
+        {
+          "key": "转正",
+          "doc_count": 1
+        },
+        {
+          "key": "预言",
+          "doc_count": 1
+        },
+        {
+          "key": "龙头",
+          "doc_count": 1
+        }
+      ]
+    },
+    "hot_media": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 4,
+      "buckets": [
+        {
+          "key": "东方财富网论坛",
+          "doc_count": 2
+        },
+        {
+          "key": "锐财经",
+          "doc_count": 2
+        },
+        {
+          "key": "Horizonhit",
+          "doc_count": 1
+        },
+        {
+          "key": "sq1996.com",
+          "doc_count": 1
+        },
+        {
+          "key": "中国交通在线",
+          "doc_count": 1
+        },
+        {
+          "key": "中国银河证券",
+          "doc_count": 1
+        },
+        {
+          "key": "九龙网",
+          "doc_count": 1
+        },
+        {
+          "key": "同花顺",
+          "doc_count": 1
+        },
+        {
+          "key": "张锐城解股",
+          "doc_count": 1
+        },
+        {
+          "key": "招商研究",
+          "doc_count": 1
+        }
+      ]
+    },
+    "mt_timeline": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "web",
+          "doc_count": 6,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/11 00:00:00 +0800",
+                "key": 1552233600000,
+                "doc_count": 6
+              }
+            ]
+          }
+        },
+        {
+          "key": "wechat",
+          "doc_count": 5,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/11 00:00:00 +0800",
+                "key": 1552233600000,
+                "doc_count": 5
+              }
+            ]
+          }
+        },
+        {
+          "key": "bbs",
+          "doc_count": 3,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/11 00:00:00 +0800",
+                "key": 1552233600000,
+                "doc_count": 3
+              }
+            ]
+          }
+        },
+        {
+          "key": "app",
+          "doc_count": 2,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/11 00:00:00 +0800",
+                "key": 1552233600000,
+                "doc_count": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "emtl_tendency": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "正面",
+          "doc_count": 9
+        },
+        {
+          "key": "中性",
+          "doc_count": 7
+        }
+      ]
+    }
+  },
+  "range": {
+    "from": "2019/03/11 00:00:00 +08:00",
+    "to": "2019/03/11 23:59:59 +08:00"
+  }
+}

@@ -1,0 +1,11 @@
+Youku
+
+Type: Media
+
+http://114.80.174.117/youku/6572B42CBB44671C4D1E850AA/03000801005C32C6595338E003E88015DCEE95-7BC0-4689-AB70-586D0A87ADA5.mp4?sid=054831350509910998711_00_Add96951bad45b1da2cfbaba9e88e8ad4&sign=b649ffdb6724ea0d8d55cc69f3660d24&ctype=50&hd=1&ali_redirect_domain=vali.cp31.ott.cibntv.net&ali_redirect_ex_ftag=c6a876754887d3967a4641e43f143bc119f6b7b7049976e4&ali_redirect_ex_tmining_ts=1548314418&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=11
+
+
+Aiqiyi
+
+f4v后缀
+

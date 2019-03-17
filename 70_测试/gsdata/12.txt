@@ -1,0 +1,614 @@
+{
+  "took": 2064,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 6,
+    "max_score": 15.352176,
+    "hits": [
+      {
+        "_index": "classified-201903",
+        "_type": "wechat",
+        "_id": "wechat_f1d16bf3-fbcf-4214-9e4e-f4fb1629f174",
+        "_score": 6.0965953,
+        "_source": {
+          "imgs": [],
+          "created": "2019/03/12 13:43:59 +08:00",
+          "channel": "深圳东盈人力",
+          "media": "深圳东盈人力",
+          "title": "特大消息!迈瑞医疗公司底薪上涨到2500,转正后底薪2800,3月13号(周三)上午10:00点准时赶到报名地点,长白班包吃住",
+          "body": "1、特注：迈瑞公司底薪上涨到2500（加班费按底薪2500算）月工资突破7000！公司订单增多，降低招聘要求，多个岗位招聘！正在报名中！\n2、上班地点：光明新区田寮迈瑞厂（11:00点之前准时赶到东盈人力资源集合）！\n3、...",
+          "uri": "http://mp.weixin.qq.com/s?__biz=MzI5NzE2NzUxNQ==&mid=2653267135&idx=2&sn=21201974ded91cbecc8686492b474df4&scene=0",
+          "contentLength": 1526
+        },
+        "sort": [
+          1552369439000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "app",
+        "_id": "7e62f8f5-e825-4635-a7a5-0408605154af",
+        "_score": 15.1996975,
+        "_source": {
+          "created": "2019/03/12 12:09:58 +08:00",
+          "media": "网易",
+          "title": "迈瑞医疗 生命科技如此亲近",
+          "body": "无",
+          "uri": "http://3g.163.com/auto/19/0312/12/EA2LPBBC0514PFTI.html",
+          "contentLength": 1
+        },
+        "sort": [
+          1552363798000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "cd11b02e-9561-40bb-9de2-d10509b2bc2e",
+        "_score": 15.352176,
+        "_source": {
+          "imgs": [
+            "http://5b0988e595225.cdn.sohucs.com/images/20190312/8d3a3f4591f1466a93ab68a7f18f3c60.jpeg"
+          ],
+          "created": "2019/03/12 12:03:00 +08:00",
+          "channel": "健康",
+          "media": "搜狐网",
+          "title": "迈瑞医疗  生命科技如此亲近",
+          "body": "深圳迈瑞生物医疗电子股份有限公司(股票简称：迈瑞医疗股票代码：300760)主要从事医疗器械的研发、制造、营销及服务，以客户需求为导向，致力于为全球医疗机构提供优质产品和服务。公司融合创新，紧贴临床需求，支持...",
+          "uri": "http://www.sohu.com/a/300662690_114731",
+          "contentLength": 796
+        },
+        "sort": [
+          1552363380000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "app",
+        "_id": "869b647c-f0d8-41e1-8654-1799bf148925",
+        "_score": 15.150006,
+        "_source": {
+          "imgs": [
+            "http://inews.gtimg.com/newsapp_match/0/8099702214/0"
+          ],
+          "created": "2019/03/12 12:01:00 +08:00",
+          "channel": "人民日报",
+          "media": "天天快报",
+          "body": "深圳迈瑞生物医疗电子股份有限公司(股票简称：迈瑞医疗股票代码：300760)主要从事医疗器械的研发、制造、营销及服务，以客户需求为导向，致力于为全球医疗机构提供优质产品和服务。公司融合创新，紧贴临床需求，支持...",
+          "title": "迈瑞医疗 生命科技如此亲近",
+          "uri": "https://kuaibao.qq.com/s/20190312A0J7QB00",
+          "contentLength": 813
+        },
+        "sort": [
+          1552363260000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "73b858b8-3456-4c6d-92d7-5d8c6da810d0",
+        "_score": 15.114257,
+        "_source": {
+          "created": "2019/03/12 05:47:39 +08:00",
+          "channel": "首页",
+          "media": "汉丰网",
+          "title": "迈瑞医疗  生命科技如此亲近",
+          "body": "深圳迈瑞生物医疗电子股份有限公司（股票简称：迈瑞医疗 股票代码：300760）主要从事医疗器械的研发、制造、营销及服务，以客户需求为导向，致力于为全球医疗机构提供优质产品和服务。公司融合创新，紧贴临床需求，支...",
+          "uri": "http://www.kaixian.tv/gd/2019/0312/220255.html",
+          "contentLength": 791
+        },
+        "sort": [
+          1552340859000
+        ]
+      },
+      {
+        "_index": "classified-201903",
+        "_type": "web",
+        "_id": "e8766f2c-4054-41bc-8a98-c9a7860d6bbe",
+        "_score": 15.352176,
+        "_source": {
+          "created": "2019/03/12 05:45:00 +08:00",
+          "media": "新浪网",
+          "body": "深圳迈瑞生物医疗电子股份有限公司（股票简称：迈瑞医疗 股票代码：300760）主要从事医疗器械的研发、制造、营销及服务，以客户需求为导向，致力于为全球医疗机构提供优质产品和服务。公司融合创新，紧贴临床需求，支...",
+          "title": "迈瑞医疗  生命科技如此亲近",
+          "uri": "http://finance.sina.com.cn/roll/2019-03-12/doc-ihsxncvh1761540.shtml",
+          "contentLength": 791
+        },
+        "sort": [
+          1552340700000
+        ]
+      }
+    ]
+  },
+  "aggregations": {
+    "raw_title": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "a5896380-80b9-4dc8-a294-5aecb08b460c",
+          "doc_count": 5,
+          "hits": {
+            "hits": {
+              "total": 5,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "web",
+                  "_id": "e8766f2c-4054-41bc-8a98-c9a7860d6bbe",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "迈瑞医疗生命科技如此亲近",
+                    "media_type": "web",
+                    "created": "2019/03/12 05:45:00 +08:00",
+                    "rel": "a5896380-80b9-4dc8-a294-5aecb08b460c",
+                    "rank": 500000,
+                    "media": "新浪网",
+                    "body": "深圳迈瑞生物医疗电子股份有限公司（股票简称：迈瑞医疗 股票代码：300760）主要从事医疗器械的研发、制造、...",
+                    "title": "迈瑞医疗  生命科技如此亲近",
+                    "uri": "http://finance.sina.com.cn/roll/2019-03-12/doc-ihsxncvh1761540.shtml"
+                  },
+                  "sort": [
+                    1552340700000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 2502550
+          }
+        },
+        {
+          "key": "709a1318-aa64-4a84-9fa7-f7638fc7c757",
+          "doc_count": 1,
+          "hits": {
+            "hits": {
+              "total": 1,
+              "max_score": null,
+              "hits": [
+                {
+                  "_index": "classified-201903",
+                  "_type": "wechat",
+                  "_id": "wechat_f1d16bf3-fbcf-4214-9e4e-f4fb1629f174",
+                  "_score": null,
+                  "_source": {
+                    "raw_title": "特大消息迈瑞医疗公司底薪上涨到2500转正后底薪28003月13号周三上午1000点准时赶到报名地点长白班包吃住",
+                    "imgs": [],
+                    "media_type": "wechat",
+                    "created": "2019/03/12 13:43:59 +08:00",
+                    "channel": "深圳东盈人力",
+                    "rel": "709a1318-aa64-4a84-9fa7-f7638fc7c757",
+                    "rank": 75000,
+                    "media": "深圳东盈人力",
+                    "title": "特大消息!迈瑞医疗公司底薪上涨到2500,转正后底薪2800,3月13号(周三)上午10:00点准时赶到报名地点,长白班包吃住",
+                    "body": "1、特注：迈瑞公司底薪上涨到2500（加班费按底薪2500算）月工资突破7000！公司订单增多，降低招聘要求，多个...",
+                    "uri": "http://mp.weixin.qq.com/s?__biz=MzI5NzE2NzUxNQ==&mid=2653267135&idx=2&sn=21201974ded91cbecc8686492b474df4&scene=0"
+                  },
+                  "sort": [
+                    1552369439000
+                  ]
+                }
+              ]
+            }
+          },
+          "ranks": {
+            "value": 75000
+          }
+        }
+      ]
+    },
+    "media_ted": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "天天快报",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "搜狐网",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "新浪网",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "汉丰网",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "深圳东盈人力",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "网易",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "related_topic": {
+      "doc_count": 6,
+      "buckets": [
+        {
+          "key": "科技",
+          "doc_count": 5,
+          "score": 29.02777777777778,
+          "bg_count": 0
+        },
+        {
+          "key": "亲近",
+          "doc_count": 5,
+          "score": 29.02777777777778,
+          "bg_count": 0
+        },
+        {
+          "key": "如此",
+          "doc_count": 5,
+          "score": 29.02777777777778,
+          "bg_count": 0
+        },
+        {
+          "key": "生命",
+          "doc_count": 5,
+          "score": 29.02777777777778,
+          "bg_count": 0
+        },
+        {
+          "key": "迈瑞医疗",
+          "doc_count": 6,
+          "score": 0.5925925925925926,
+          "bg_count": 27
+        }
+      ]
+    },
+    "mt_ted": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "web",
+          "doc_count": 3,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "正面",
+                "doc_count": 3
+              }
+            ]
+          }
+        },
+        {
+          "key": "app",
+          "doc_count": 2,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              },
+              {
+                "key": "正面",
+                "doc_count": 1
+              }
+            ]
+          }
+        },
+        {
+          "key": "wechat",
+          "doc_count": 1,
+          "tendency": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "中性",
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "channel": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "人民日报",
+          "doc_count": 1
+        },
+        {
+          "key": "健康",
+          "doc_count": 1
+        },
+        {
+          "key": "深圳东盈人力",
+          "doc_count": 1
+        },
+        {
+          "key": "首页",
+          "doc_count": 1
+        }
+      ]
+    },
+    "ted_timeline": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "正面",
+          "doc_count": 4,
+          "time_line": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/12 00:00:00 +0800",
+                "key": 1552320000000,
+                "doc_count": 4
+              }
+            ]
+          }
+        },
+        {
+          "key": "中性",
+          "doc_count": 2,
+          "time_line": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/12 00:00:00 +0800",
+                "key": 1552320000000,
+                "doc_count": 2
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "hot_topics": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "迈瑞医疗",
+          "doc_count": 6
+        },
+        {
+          "key": "亲近",
+          "doc_count": 5
+        },
+        {
+          "key": "如此",
+          "doc_count": 5
+        },
+        {
+          "key": "生命",
+          "doc_count": 5
+        },
+        {
+          "key": "科技",
+          "doc_count": 5
+        },
+        {
+          "key": "上午",
+          "doc_count": 1
+        },
+        {
+          "key": "公司",
+          "doc_count": 1
+        },
+        {
+          "key": "准时",
+          "doc_count": 1
+        },
+        {
+          "key": "吃住",
+          "doc_count": 1
+        },
+        {
+          "key": "周三",
+          "doc_count": 1
+        },
+        {
+          "key": "地点",
+          "doc_count": 1
+        },
+        {
+          "key": "底薪",
+          "doc_count": 1
+        },
+        {
+          "key": "报名",
+          "doc_count": 1
+        },
+        {
+          "key": "消息",
+          "doc_count": 1
+        },
+        {
+          "key": "涨到",
+          "doc_count": 1
+        },
+        {
+          "key": "特大",
+          "doc_count": 1
+        },
+        {
+          "key": "白班",
+          "doc_count": 1
+        },
+        {
+          "key": "赶到",
+          "doc_count": 1
+        },
+        {
+          "key": "转正",
+          "doc_count": 1
+        }
+      ]
+    },
+    "hot_media": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "天天快报",
+          "doc_count": 1
+        },
+        {
+          "key": "搜狐网",
+          "doc_count": 1
+        },
+        {
+          "key": "新浪网",
+          "doc_count": 1
+        },
+        {
+          "key": "汉丰网",
+          "doc_count": 1
+        },
+        {
+          "key": "深圳东盈人力",
+          "doc_count": 1
+        },
+        {
+          "key": "网易",
+          "doc_count": 1
+        }
+      ]
+    },
+    "mt_timeline": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "web",
+          "doc_count": 3,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/12 00:00:00 +0800",
+                "key": 1552320000000,
+                "doc_count": 3
+              }
+            ]
+          }
+        },
+        {
+          "key": "app",
+          "doc_count": 2,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/12 00:00:00 +0800",
+                "key": 1552320000000,
+                "doc_count": 2
+              }
+            ]
+          }
+        },
+        {
+          "key": "wechat",
+          "doc_count": 1,
+          "created": {
+            "buckets": [
+              {
+                "key_as_string": "2019/03/12 00:00:00 +0800",
+                "key": 1552320000000,
+                "doc_count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "emtl_tendency": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "正面",
+          "doc_count": 4
+        },
+        {
+          "key": "中性",
+          "doc_count": 2
+        }
+      ]
+    }
+  },
+  "range": {
+    "from": "2019/03/12 00:00:00 +08:00",
+    "to": "2019/03/12 23:59:59 +08:00"
+  }
+}

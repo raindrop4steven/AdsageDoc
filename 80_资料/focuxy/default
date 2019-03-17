@@ -1,0 +1,617 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="never"/>
+    <title>Focuxy</title>
+    <link rel="shortcut icon" href="/img/focuxy/favicon.ico" />
+
+    <link rel="stylesheet" href="/docs/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/docs/assets/css/docs.css" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/lib/vue-elemeUI/vue-eleme.io.css" />
+    <link rel="stylesheet" href="/stylesheets/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/javascripts/jvectormap/jquery-jvectormap-1.2.2.css"/>
+    <link rel="stylesheet" href="/lib/jquery-toastmessage/resources/css/jquery.toastmessage.css" />
+    <link rel="stylesheet" href="/lib/bootstrap-dialog/bootstrap-dialog.min.css"/>
+    
+    <script type="text/javascript" src="/javascripts/views/countly.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/docs/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/javascripts/underscore-min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.trunk8.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.scrolltotop.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.qs.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.wookmark.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.highlight.js"></script>
+    <script type="text/javascript" src="/javascripts/tokenize/jquery.tokenize.js"></script>
+    <script type="text/javascript" src="/javascripts/moment_js/moment.min.js"></script>
+    <script type="text/javascript" src="/javascripts/localforage.min.js"></script>
+    <script type="text/javascript" src="/javascripts/async.0.9.js"></script>
+    <!-- save png -->
+    <script type="text/javascript" src="/javascripts/canvas-toBlob.js"></script>
+    <script type="text/javascript" src="/javascripts/save-svg.js"></script>
+    <script type="text/javascript" src="/javascripts/views/save-excel.js"></script>
+
+    <script type="text/javascript" src="/lib/bootstrap-dialog/bootstrap-dialog.min.js"></script>
+    
+    <script type="text/javascript" src="/lib/vue-elemeUI/vue.js"></script>
+    <script type="text/javascript" src="/lib/vue-elemeUI/vue-eleme.io.min.js"></script>
+
+    <!-- data picker -->
+    <link rel="stylesheet" href="/javascripts/datepicker/base.css" />
+    <link rel="stylesheet" href="/javascripts/datepicker/clean.css" />
+    <script type="text/javascript" src="/javascripts/datepicker/datepicker.js"></script>
+
+    <!-- echatsjs -->
+    <script type="text/javascript" src="/javascripts/echarts/echarts.min.js"></script>
+    <script type="text/javascript" src="/javascripts/echarts/echarts-wordcloud.js"></script>
+    <script type="text/javascript" src="/javascripts/echarts/themes.js"></script>
+
+    <!-- numeral format -->
+    <script type="text/javascript" src="/javascripts/numeral-2.0.6.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.cookie.js"></script>
+
+    <!--pptxgen jszip有冲突，必须放到最后-->
+    <script type="text/javascript" src="/javascripts/pptxgen/promise.min.js"></script>
+    <script type="text/javascript" src="/javascripts/pptxgen/jszip.min.js"></script>
+    <script type="text/javascript" src="/javascripts/pptxgen/pptxgen.shapes.js"></script>
+    <script type="text/javascript" src="/javascripts/pptxgen/pptxgenjs.bundle.js"></script>
+    
+    <script type="text/javascript" src="/lib/superslide/jquery.SuperSlide.2.1.2.source.js"></script>
+    <script type="text/javascript" src="/javascripts/views/scale.js"></script>
+    <script type="text/javascript" src="/javascripts/views/filter.js"></script>
+    <script type="text/javascript" src="/javascripts/views/build-reports.js"></script>
+    <script type="text/javascript" src="/javascripts/views/echart.helper.js"></script>
+    <script type="text/javascript" src="/javascripts/views/search.helper.js"></script>
+    <script type="text/javascript" src="/javascripts/views/default.html.js"></script>
+</head>
+<body>
+<input type="hidden" id="defaultTitle" value="Focuxy" />
+<div class="main-container">
+    <div class="search-container" style="position: fixed; z-index:200">
+        <div class="container">
+            <div class="row" style="padding:8px 0px;">
+                <div class="col-sm-2 col-md-2 col-lg-2" style="padding-top:6px">
+                    <a href="/">
+                        <img src="/img/focuxy/icon-large.png" title="Focuxy" />
+                    </a>
+                </div>
+                <div class="col-sm-7 col-md-7 col-lg-7">
+                    <div class="input-wrap">
+                        <div class="col-sm-8 col-md-8 col-lg-8 p0" id="navgroup" style="width: 50%">
+                            <template>
+                                <el-checkbox-group v-model="checknavGroup" size="small">
+                                    <el-checkbox-button v-for="c in cats" @change="handleCheckedCatsChange" :label="c.title" :key="c.cat"></el-checkbox-button>
+                                </el-checkbox-group>
+                            </template>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 p0">
+                            <ul class="nav-cats logout" style="width:100%;">
+                                <li><a href="/logout">退出登录</a></li>
+                            </ul>
+                        </div>
+                        <div class="input-group search-group" style="margin-top: 0px">
+                            <input type="text" id="q" class="form-control" placeholder="输入要搜索的关键字..." autocomplete="off" data-cn="default">
+                            <div class="input-group-btn">
+                                <button id="query" type="button" class="btn btn-default">搜 索</button>
+                                <button id="query-model" type="button" class="btn btn-default">高级搜索</button>
+                            </div>
+                            <div id="loader" style="right: 150px">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-md-1 col-lg-1">
+                    <div id="sidebar" class="right-side sidebaroffset">
+                        <ul>
+                            <li>
+                                <span class="head" data-cat="promot" title="展开/折叠子菜单">
+                                    <i class="glyphicon closed glyphicon-chevron-down"></i>
+                                    检索类型
+                                    <small></small>
+                                </span>
+                                <ul data-cat="term" style="overflow: hidden; display: none;">
+                                    <li data-cat="all" class="active">全文检索<i class="glyphicon glyphicon-ok"></i> 
+                                    </li>
+                                    <li data-cat="title">标题搜索</li>
+                                </ul>
+                            </li>
+                            <li class="last">
+                                <span class="head" data-cat="promot" title="展开/折叠子菜单">
+                                    <i class="glyphicon closed glyphicon-chevron-down"></i>
+                                    时间范围
+                                    <small></small>
+                                </span>
+                                <ul data-cat="range" style="overflow: hidden; display: none;">
+                                    
+                                        
+                                            
+                                                <li data-cat="day" class="active">
+                                                    最近24小时
+                                                    <i class="glyphicon glyphicon-ok"></i> 
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="today">
+                                                    今天
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="last_day">
+                                                    昨天
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="3_days">
+                                                    最近3天
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="week">
+                                                    最近7天
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="cur_week">
+                                                    本周
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="last_week">
+                                                    上周
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="month">
+                                                    最近1个月
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="3_months">
+                                                    最近3个月
+                                                </li>
+                                            
+                                        
+                                            
+                                                <li data-cat="half_year">
+                                                    最近半年
+                                                </li>
+                                            
+                                        
+                                    
+                                    <li data-cat="custom" class="disabled"><input readonly type="text" id="customRange" placeholder="自定义" /></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-result">
+        <div class="container">
+            <div class="row p0">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="result_msgs"></div>
+                    <div id="result_tips"></div>
+                </div>
+                <div id="filters" class="col-sm-12 col-md-12 col-lg-12">
+                </div>
+            </div>
+
+            <div id="charts">
+                <el-row id="crow-1" gutter=10>
+                </el-row>
+                <el-row class="m0">
+                    <el-col :span="18">
+                        <el-row id="crow-2" gutter=10 class="p0"></el-row>
+                        <el-row id="crow-3" gutter=10 class="p0"></el-row>
+                        <el-row id="crow-4" gutter=10 class="p0"></el-row>
+                    </el-col>
+                    <el-col :span="6">
+                        <el-row id="crow-5" gutter=10 class="p0" style="margin-right: 5px">
+                            <el-col :span="24" style="margin-left: 10px;margin-right:10px">
+                                <el-tabs type="border-card">
+                                    <el-tab-pane label="热门话题" style="height:1019px; overflow: auto;">
+                                        <div id="newsList">
+                                        </div>
+                                    </el-tab-pane>
+                                    <el-tab-pane label="新闻列表" style="height:1019px; overflow: auto;">
+                                        <div id="docsList">
+
+                                        </div>
+                                        <div style="width: 100%" id="pagination"></div>
+                                    </el-tab-pane>
+                                </el-tabs>
+                            </el-col>
+                        </el-row>
+                    </el-col>
+                </el-row>
+                <el-row id="crow-6" gutter=10>
+                </el-row>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container copyright">
+            © 2014-2019 新智资讯 2014-2019 <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备11010360号-3</a>
+        </div>
+    </div>
+    <div id="theme-select" class="theme-select">
+    <div class="toggle-button">
+        <i class="fa fa-chevron-up"></i>
+        切换主题
+    </div>
+    <ul>
+        <li>
+            <div>
+                <img src="/img/themes/theme_1.png" data-theme="theme1"/><br/>
+                主题一
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="/img/themes/theme_2.png" data-theme="theme2"/><br/>
+                主题二
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="/img/themes/theme_3.png" data-theme="theme3"/><br/>
+                主题三
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="/img/themes/theme_4.png" data-theme="theme4"/><br/>
+                主题四
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="/img/themes/theme_5.png" data-theme="theme5"/><br/>
+                主题五
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="/img/themes/theme_6.png" data-theme="theme6"/><br/>
+                主题六
+            </div>
+        </li>
+        <li>
+            <div>
+                <img src="/img/themes/theme_7.png" data-theme="essos"/><br/>
+                主题七
+            </div>
+        </li>
+    </ul>
+</div>
+</div>
+
+<noscript><img src='http://count.focuxy.com/pixel.png?app_key=b86547970177adb9982e02834c66bdc7273dd45d&begin_session=1'/></noscript>
+<script type="text/javascript">
+    var dm = {"admin":true,"default_title":"Focuxy","icon_path":"focuxy","cropright":"© 2014-2019 新智资讯 2014-2019","icp":"京ICP备11010360号-3"}
+    var default_theme = "theme5"
+    var global_mts = {"penalty":"处罚","judgement":"司法文书","web":"网络","bbs":"论坛","paper":"平媒","app":"手机","microblog":"微博","wechat":"微信","qa":"问答","annc":"公告","video":"视频","promot":"促销","rpt":"日报","处罚":"penalty","司法文书":"judgement","网络":"web","论坛":"bbs","平媒":"paper","手机":"app","微博":"microblog","微信":"wechat","问答":"qa","公告":"annc","视频":"video","促销":"promot","日报":"rpt"}
+    var nav_cats = [{"title":"全部","cat":"all"},{"title":"网络","cat":"web"},{"title":"手机","cat":"app"},{"title":"平媒","cat":"paper"},{"title":"微信","cat":"wechat"},{"title":"论坛","cat":"bbs"}]
+    var chart_configs = [{"id":"hot_topics","label":"词云","parent":"cloud1","name":"hot_topics","type":"wordcloud","icon":"fa-dribbble","span":24,"height":320,"ellipticity":0.4,"aspect_ratio":0.5},{"id":"related_topic","label":"热词云","parent":"cloud2","name":"related_topic","type":"wordcloud","icon":"fa-dribbble","span":24,"height":320,"ellipticity":0.4,"aspect_ratio":0.5},{"id":"total","label":"声量趋势","parent":"crow-1","name":"ted_timeline","type":"multiGauge","seriesKey":"total","icon":"fa-line-chart","span":12,"cstyle":"padding-left: 6px","height":320,"aspect_ratio":0.5},{"id":"mt_timeline","label":"声量时间线","parent":"crow-2","name":"mt_timeline","type":"multiLine","seriesKey":"created","icon":"fa-line-chart","span":16,"height":320,"aspect_ratio":0.5},{"id":"hot_media","label":"热门媒体","parent":"crow-2","name":"hot_media","ref_key":"media","type":"ring","icon":"fa-fire","span":8,"height":320,"aspect_ratio":1},{"id":"ted_timeline","label":"倾向时间线","parent":"crow-3","name":"ted_timeline","type":"multiLine","seriesKey":"time_line","icon":"fa-line-chart","span":16,"height":320,"aspect_ratio":0.5},{"id":"channel","label":"热门频道","parent":"crow-3","name":"channel","ref_key":"channel","type":"ring","icon":"fa-fire","span":8,"height":320,"aspect_ratio":1},{"id":"media_ted","label":"热门媒体倾向","parent":"crow-4","name":"media_ted","type":"stackBar","ref_key":"emtl_tendency","seriesKey":"tendency","icon":"fa-flag-o","span":8,"height":320,"aspect_ratio":1},{"id":"mt_ted","label":"媒体类型倾向","parent":"crow-4","name":"mt_ted","type":"stackBar","ref_key":"emtl_tendency","seriesKey":"tendency","icon":"fa-flag-o","span":8,"height":320,"aspect_ratio":1},{"id":"emtl_tendency","label":"倾向","parent":"crow-4","name":"emtl_tendency","ref_key":"emtl_tendency","type":"ring","icon":"fa-flag-o","span":8,"height":320,"aspect_ratio":1},{"id":"raw_title","label":"热门话题","parent":"crow-5","name":"raw_title","type":"newsList","icon":"fa-fire","span":24,"height":320,"aspect_ratio":1}]
+    var category = {"category":"default","path":"default","title":"新闻","route":"search/default","icon_suffix":"","date_format_type":"strict","indexPrefix":"classified-","minIndex":"18201809","createSlide":true,"download_count":2000,"cats":[{"title":"全部","cat":"all"},{"title":"网络","cat":"web"},{"title":"手机","cat":"app"},{"title":"平媒","cat":"paper"},{"title":"微信","cat":"wechat"},{"title":"论坛","cat":"bbs"}],"significant_aggs":"related_topic","offline_count":20000,"offline_pageSize":1000,"add_history":false,"search_ranges":[{"range":"day","label":"最近24小时"},{"range":"today","label":"今天"},{"range":"last_day","label":"昨天"},{"range":"3_days","label":"最近3天"},{"range":"week","label":"最近7天"},{"range":"cur_week","label":"本周"},{"range":"last_week","label":"上周"},{"range":"month","label":"最近1个月"},{"range":"3_months","label":"最近3个月"},{"range":"half_year","label":"最近半年"}],"show_segment":false}
+</script>
+<!-- TEMPLATES -->
+<script type="text/html" id="tmpNone">
+    <div class="no-result search-desc">
+        <div class="page-header">
+            抱歉，没有找到与“<b><%= q %></b>”相关的搜索结果，建议您：
+        </div>
+        <ul>
+            <li>请检查输入字词有无错误。</li>
+            <li>请换用另外相近的查询字词。</li>
+            <li>请改用较短、较为常见的字词</li>
+        </ul>
+    </div>
+</script>
+<script type="text/html" id="tmpTip">
+    <div class="guide search-desc">
+        <div class="page-header">使用说明：</div>
+        <ul>
+            <li>输入搜索关键字进行全文检索。</li>
+        </ul>
+    </div>
+</script>
+<script type="text/html" id="tmpTip_comment">
+    <div class="guide search-desc">
+        <div class="page-header">使用说明：</div>
+        <ul>
+            <li>输入搜索关键字进行全文检索。</li>
+        </ul>
+    </div>
+</script>
+
+
+<script type="text/html" id="tmpExp">
+    <div class="search-error search-desc">
+        <blockquote>
+            <%= error %>
+        </blockquote>
+    </div>
+</script>
+
+<script type="text/html" id="tmpResultMsg">
+    <div class="count">
+        <ul>
+            <li>共搜索到<b><%= data.total %></b>条数据，耗时<%= data.took %> | 您可以</li>
+            <li><a href="/download?<%= data.download_link || ""%>" id="download">下载结果</a> 
+                <span class="muted"> - 限2000条</span>
+            </li>
+            <li>
+                | <a href="javascript:void(0)" id="ofd">离线下载</a> 
+                  <span class="muted"> - 限20000条</span>
+                ( <a target="_blank" href="/status">查看进度</a>) 
+            </li>
+            <% if(!data.disable_ppt){ %>
+            <li>
+                | <a href="javascript:void(0)" id="download_ppt">下载PPT</a>
+            </li>
+            <li>
+                | <a href="javascript:void(0)" id="build-report">快捷报告</a>
+            </li>
+            <li>
+                | <a href="/cloud?<%= data.download_link || ""%>" target="_blank">自定义词云</a> 
+            </li>
+            <% } %>
+        </ul>
+    </div>
+</script>
+
+<script type="text/html" id="tmpResultTip">
+    <div class="count">
+        <ul>
+            <li>共搜索到<b><%= data.total %></b>条数据，耗时<%= data.took %>，您可以</li>
+        </ul>
+    </div>
+</script>
+
+<script type="text/html" id="tmpNewsList">
+    <% data.forEach(function(hit){ %>
+        <div class="list-item">
+            <div class="title">
+                <a href="<%= hit.uri %>" target="_blank" title="<%= hit.title %>"><%= hit.title %></a> 
+                <% if(hit.read || hit.comment){ %>
+                    <span><%= hit.comment_num || "-" %> / <%= hit.read_num || hit.comment_num || "-" %></span>
+                <% } %>
+            </div>
+            <div class="body">
+                <% if(hit.imgs && hit.imgs.length > 0){ %>
+                    <div class="img-container">
+                        <img src="<%= hit.imgs[0].replace(/wx_fmt.*$/, "") %>"/>
+                    </div>
+                <% } %>
+                <div class="content"><%= hit.body.replace(/\s/g, "").trim() %></div>
+            </div>
+            <div class="clearfix"/>
+            <div class="footer">
+                <div>
+                    <span class="nopadding text-left">
+                        <span class="searchable" ref="media"><%= hit.media %></span>
+                    </span>
+                    (<a href="<%= hit.rel ? '/topics?cn=' + cn + '&cat=' + cat +'&rel=' + hit.rel + '&range=' + hit.range :  '/topics?cn=' + cn + '&cat=' + cat +'&raw_title=' + hit.raw_title %>" target="_blank">
+                        <%= hit.doc_count %> 条相似 
+                    </a>)
+                    <% if(hit.total_rank && hit.total_rank != "0") { %> 
+                        - (影响力: <%= hit.total_rank || 0 %>) <% 
+                    } %>
+                </div>
+                <div style="float:right;margin-top:-18px"><%= hit.created.substr(5, 5) %></div>
+            </div>
+        </div>
+        <div class="list-item-divider"></div>
+    <% }) %>
+</script>
+
+
+<script type="text/html" id="tmpDocsList">
+    <% data.forEach(function(hit){ %>
+        <div class="list-item">
+            <div class="title">
+                <a href="<%= hit._source.uri %>" target="_blank" title="<%= hit._source.title %>"><%= hit._source.title %></a>
+            </div>
+            <div class="body">
+                <% if(hit._source.imgs && hit._source.imgs.length > 0){ %>
+                    <div class="img-container">
+                        <img src="<%= hit._source.imgs[0].replace(/wx_fmt.*$/, "") %>"/>
+                    </div>
+                <% } %>
+                <div class="content"><%= hit._source.body.replace(/\s/g, "").trim() %></div>
+            </div>
+            <div class="clearfix"/>
+            <div class="footer">
+                <div>
+                    <span class="nopadding text-left">
+                        <span ref="media"><%= hit._source.media %></span>
+                    </span>
+                    <span class="nopadding text-left">
+                        <span ref="channel"><%= hit._source.channel %></span>
+                    </span>
+                    <span class="nopadding text-left">
+                        <% if(hit._source.doc_subject) { %> 
+                            <i class="fa fa-tags subject red"> 
+                                <span class="searchable" data-ref_lable="主体" data-ref="doc_subject"><%= hit._source.doc_subject %></span>
+                            </i>
+                        <% } %>
+                        <% if(hit._source.doc_mentions) { %> 
+                            <i class="fa fa-tags blue">提及：<%= hit._source.doc_mentions %></i>
+                        <% } %>
+                        <% if(hit._source.hasOwnProperty('ted_score')){ %>
+                            - 得分: <%= hit._source.ted_score %>
+                        <% } %>
+                    </span>
+                </div>
+                <div style="float:right;margin-top:-18px"><%= hit._source.created.substr(5, 11) %></div>
+            </div>
+        </div>
+        <div class="list-item-divider"></div>
+    <% }) %>
+</script>
+
+<script type="text/html" id="tmpResultRowList">
+    <ul class="doc-list">
+    <% data.hits.forEach(function(hit){ %>
+        <li>
+            <div class="title">
+                <a href="<%= hit._source.uri %>" target="_blank" title="<%= hit._source.title %>"><%= hit._source.title %></a>
+            </div>
+            <small></small>
+            <span class="pull-right time"><%= moment(hit._source.created, ["YYYY/MM/DD HH:mm:ss Z"]).fromNow() %></span>
+        </li>
+    <% }) %>
+    </ul>
+
+    <% if(data.total > 0){ %>
+        <div class="page-control" style="display: block;">
+            <span class="pagebox_pre">
+                <% if(data.page > 0){ %>
+                    <a title="上一页" href="javascript:void(0)" data-pd="-1">上一页</a>
+                <% } else{ %>
+                    上一页
+                <% } %>
+            </span>
+            <span class="pagebox_next pull-right">
+                <% if(data.page_size * (data.page + 1) < data.total){ %>
+                    <a title="下一页" href="javascript:void(0)" data-pd="1">下一页</a>
+                <% } else { %>
+                    下一页
+                <% } %>
+            </span>
+        </div>
+    <% } %>
+</script>
+
+<script type="text/html" id="download_confirm">
+    <div class="confirm-desc">
+        <div class="row">
+            确认要下载 【<%= data.cat %>】分类下 【<%= data.range %>】 关于 “<%= data.q %>” 的 <span class="warning"><%= data.total %></span> 条数据吗？
+        </div>
+        <% if(data.total > 50000){ %>
+            <div class="row warning">
+                当前下载总量已大于最大限制【50000】条，超出范围的数据记录将被遗弃
+            </div>
+        <% } %>
+    </div>
+</script>
+
+<script type="text/html" id="template_weibo_portait">
+    <% datas.forEach(function(item){ %>
+        <div class="col-sm-3 col-md-3 col-xs-3 protait-container">
+            <a href="http://weibo.com/<%= item.id %>" target="_blank">
+                <img src="<%= item.profile_image_url %>" title="<%= item.title %>" class="portait"/>
+            </a>
+        </div>
+    <% }) %>
+</script> 
+<script type="text/html" id="template_weibo"> 
+    <% datas.forEach(function(item){ %>
+        <div class="weibo-item">
+            <div class="weibo clearfix">
+                    <div class="portrait">
+                        <img src="<%= item.profile_image_url %>"/>
+                    </div>
+                    <div class="body">
+                        <div class="nickname">
+                            <a href="http://weibo.com/<%= item.userid %>" target="_blank"><%= item.screen_name %></a>
+                        </div>
+                        <% if(item.texts && item.texts.length > 0){ %>
+                            <div class="text">
+                                <% item.texts.forEach(function(text){ %>
+                                    <% if(text.indexOf("http") == -1){ %>
+                                        <%= text %>
+                                    <% }else{ %>
+                                        <a href="<%= text %>" target="_blank"><%= text %></a>
+                                    <% } %>
+                                <% }) %>
+                            </div>
+                        <% }else{ %>
+                            <div class="text"><%= item.text %></div>
+                        <% } %>
+                        <span class="time"><%= item.ct %> 来自 <%= item.source %></span>
+                    </div>
+                </div>
+                <div class="footer">
+                    <ul>
+                        <li><%= item.reposts_count %> 转发</li>
+                        <li><div class="divider"></div><%= item.comments_count %> 评论</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <% }) %>
+</script> 
+
+<div class="modal fade" id="query_modal" tabindex="-1" role="dialog" aria-labelledby="model-title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="site-title">搜索关键词</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="note-title">包含以下任意关键词</div>
+                        <textarea type="textarea" id="txt_keyws_1" row="10" class="form-control keywords" placeholder="包含以下任意关键词" onfocus="this.select()"/></textarea>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="note-title">包含以下任意关键词</div>
+                        <textarea type="textarea" id="txt_keyws_2" row="10" class="form-control keywords" placeholder="包含以下任意关键词" onfocus="this.select()"/></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="note-title">排除以下任意关键词</div>
+                        <textarea type="textarea" id="txt_keyws_3" row="15" class="form-control keywords" placeholder="排除以下任意关键词" onfocus="this.select()"/></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 tbar">
+                        <div class="tip-bar">
+                            <input type="checkbox" id="cb-keepblank">
+                            <label for="cb-keepblank">搜索关键词可包含空格</label>
+                        </div>
+                    </div>
+                    <div class="col-md-10 note-tips">
+                        使用(逗号、换行)分隔多个关键词
+                    </div>
+                    <button id="beginSearch" type="button" class="btn btn-sm btn-default pull-right" data-dismiss="modal">搜索</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="confirm_modal" tabindex="-1" role="dialog" aria-labelledby="model-title">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="site-title">下载提示</h4>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">取消</button>
+                <button id="start_download" type="button" class="btn btn-success" data-dismiss="modal">继续下载</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
